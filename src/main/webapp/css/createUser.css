@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+body, html {
+	padding: 0px;
+	margin: 0px;
+	height: 5000px;
+}
+
+img {
+	height: 100px;
+	width: 12%;
+}
+
+header {
+	height: 100px;
+	background-color: whitesmoke;
+}
+
+#left {
+	width: 20%;
+	background-color: whitesmoke;
+	height: 100%;
+	float: left;
+	border-right: 3px solid #091f81;
+}
+
+#mid {
+	background-color: white;
+	height: 100%;
+}
+
+#right {
+	width: 20%;
+	background-color: whitesmoke;
+	height: 100%;
+	float: right;
+	border-left: 3px solid #091f81;
+}
+
+hr {
+	height: 3px;
+	border: none;
+	background-color: #091f81;
+	margin: 0px;
+}
+
+a {
+	float: right;
+	margin-left: 7%;
+	margin-top: 30px;
+	font-size: 25px;
+	text-decoration: none;
+	font-family: monospace;
+	font-weight: 600;
+	border: 3px solid #091f81;
+	border-radius: 10px;
+}
+
+#exit, #task {
+	color: #be2424;
+}
+
+.bungur, #tip {
+	color: #be2424;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+.navy {
+	color: #091f81;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+input[type="text"] {
+	height: 25px;
+	width: 30%;
+	border: 3px solid #091f81;
+	border-radius: 15px;
+	color: #be2424;
+	font-weight: 600;
+	margin-bottom: 5px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+input[type="submit"] {
+	width: 20%;
+	border: 3px solid #091f81;
+	border-radius: 15px;
+	color: #be2424;
+	font-weight: 400;
+	height: 25px;
+}
+
+input[type="password"] {
+	height: 25px;
+	width: 30%;
+	border: 3px solid #091f81;
+	border-radius: 15px;
+	color: #be2424;
+	font-weight: 400;
+	margin-bottom: 5px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+form {
+	margin-top: 20px;
+}
+
+#msg, #update {
+	color: #091f81;
+}
+
+#error {
+	color: #be2424;
+}

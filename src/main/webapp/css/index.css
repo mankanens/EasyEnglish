@@ -1,0 +1,67 @@
+header {
+	background-image: url(images/ee.jpg);
+	background-repeat: round;
+	display: block;
+	height: 350px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.head {
+	text-align: center;
+	font-size: 55px;
+	font-family: monospace;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.burgun {
+	color: #8e1818;
+}
+
+.navyblue {
+	color: #0a164b;
+}
+
+form {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+input {
+	display: block;
+	width: 30%;
+	height: 35px;
+	margin-left: 35%;
+	margin-bottom: 20px;
+	border: 4px solid #0a164b;
+	color: #8e1818;
+	text-align: center;
+	font-size: 26px;
+	font-family: monospace;
+	font-weight: 900;
+	border-radius: 20px/20px;
+}
+
+input[type="submit"] {
+	background-color: white;
+	width: 20%;
+	margin-left: 40%;
+	height: 40px;
+}
+
+.error {
+	color: #8e1818;
+	text-align: center;
+	font-size: 16px;
+	font-family: monospace;
+	font-weight: 900;
+}

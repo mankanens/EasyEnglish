@@ -1,0 +1,63 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    height: 5000px;
+}
+
+img {
+    height: 100px;
+    width: 12%;
+}
+
+header {
+    height: 100px;
+    background-color: whitesmoke;
+}
+
+#left {
+    width: 20%;
+    background-color: whitesmoke;
+    height: 100%;
+    float: left;
+    border-right: 3px solid #091f81;
+}
+
+#mid {
+	padding: 10px;
+	color: #be2424;
+	font-size: 20px;
+    background-color: white;
+    height: 100%;
+}
+
+#right {
+    width: 20%;
+    background-color: whitesmoke;
+    height: 100%;
+    float: right;
+    border-left: 3px solid #091f81;
+}
+
+hr {
+    height: 3px;
+    border: none;
+    background-color: #091f81;
+    margin: 0px;
+}
+
+a {
+    float: right;
+    margin-left: 7%;
+    margin-top: 30px;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 600;
+    border: 3px solid #091f81;
+    border-radius: 10px;
+}
+
+#exit, #task {
+    color: #be2424;
+}
